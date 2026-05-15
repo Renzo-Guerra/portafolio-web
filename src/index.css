@@ -1,3 +1,13 @@
+:root {
+  --background-color: rgb(245, 245, 245);
+  --text-color: rgb(12, 7, 7);
+}
+
+:root.dark {
+  --background-color: rgb(12, 7, 7);
+  --text-color: rgb(245, 245, 245);
+}
+
 *,
 *::before,
 *::after {
@@ -17,9 +27,9 @@
   flex-direction: column;
   box-sizing: border-box;
   background-color: var(--background-color);
-  border: solid 1px red;
+  color: var(--text-color);
 }
 
 body {
-  background-color: var(--background-color);
+  color: var(--text-color);
 }
