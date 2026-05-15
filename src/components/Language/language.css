@@ -1,0 +1,13 @@
+.language-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: .2rem;
+  text-transform: capitalize;
+}
+
+.language-container img {
+  height: 2rem;
+  width: 2rem;
+  margin-inline: auto;
+}
