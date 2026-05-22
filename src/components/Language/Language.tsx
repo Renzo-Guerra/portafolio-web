@@ -11,7 +11,7 @@ export const Language = ({ fileName, name }: Props) => {
   return (
     <>
       <div className="language-container">
-        <img src={`${baseUrl}src/assets/${fileName}`} alt={`${name} icon`} />
+        <img src={`${baseUrl}src/assets/icons/${fileName}`} alt={`${name} icon`} />
         <span>{name}</span>
       </div>
     </>
