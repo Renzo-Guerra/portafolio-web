@@ -12,10 +12,10 @@ function App() {
         <ThemeToggle />
         <ul>
           <a href="https://www.linkedin.com/in/renzo-guerra-lattour-008473246/" target="_blank" rel="noopener noreferrer" title='LinkedIn/renzo-guerra-lattour'>
-            <img src={`${import.meta.env.BASE_URL}src/assets/icons/linkedin.svg`} alt="LinkedIn/" />
+            <img src="/public/assets/icons/linkedin.svg" alt="LinkedIn/" />
           </a>
           <a href="https://github.com/Renzo-Guerra" target="_blank" rel="noopener noreferrer" title='Github/Renzo-Guerra'>
-            <img src={`${import.meta.env.BASE_URL}src/assets/icons/github_${theme == "dark" ? "dark" : "light"}.svg`} alt="GitHub/" />
+            <img src={`/public/assets/icons/github_${theme == "dark" ? "dark" : "light"}.svg`} alt="GitHub/" />
           </a>
         </ul>
       </nav>

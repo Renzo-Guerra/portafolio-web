@@ -6,12 +6,10 @@ interface Props {
 }
 
 export const Language = ({ fileName, name }: Props) => {
-  const baseUrl = import.meta.env.BASE_URL;
-
   return (
     <>
       <div className="language-container">
-        <img src={`${baseUrl}src/assets/icons/${fileName}`} alt={`${name} icon`} />
+        <img src={`/public/assets/icons/${fileName}`} alt={`${name} icon`} />
         <span>{name}</span>
       </div>
     </>
