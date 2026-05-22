@@ -62,6 +62,9 @@ function App() {
         <p>Me recibí de la tecnicatura TUDAI (Tecnicatura Universitaria en Desarrollo de Aplicaciones Informáticas) de Tandil y actualmente sigo expandiendo y adquiriendo nuevos conocimientos.</p>
         <p>Capaz de autogestionar mi tiempo de manera efectiva durante mis proyectos independientes, así como colaborar formando parte de un equipo de trabajo.</p>
       </div >
+      <div className='titular' id='stack'>
+        <h2>Stack tecnológico</h2>
+      </div>
       <h3>Front-end</h3>
       <div className='technologies-container'>
         {frontIcons.map(icon => (
@@ -79,6 +82,9 @@ function App() {
         {herramientasIcons.map(icon => (
           <Language key={icon.fileName} fileName={icon.fileName} name={icon.name} />
         ))}
+      </div>
+      <div className='titular' id='proyectos'>
+        <h2>Proyectos</h2>
       </div>
     </>
   )
