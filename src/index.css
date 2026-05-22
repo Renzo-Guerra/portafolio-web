@@ -1,6 +1,7 @@
 :root {
   --background-color: rgb(245, 245, 245);
   --text-color: rgb(12, 7, 7);
+  --font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 :root.dark {
@@ -17,7 +18,7 @@
 }
 
 #root {
-  width: 1126px;
+  width: 700px;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -28,8 +29,10 @@
   box-sizing: border-box;
   background-color: var(--background-color);
   color: var(--text-color);
+  font-family: var(--font-family);
 }
 
 body {
+  background-color: var(--background-color);
   color: var(--text-color);
 }
