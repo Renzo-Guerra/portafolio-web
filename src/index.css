@@ -1,12 +1,14 @@
 :root {
   --background-color: rgb(245, 245, 245);
   --text-color: rgb(12, 7, 7);
+  --accent-color: rgb(83, 74, 183);
   --font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 :root.dark {
   --background-color: rgb(12, 7, 7);
   --text-color: rgb(245, 245, 245);
+  --accent-color: rgb(211, 209, 199);
 }
 
 *,

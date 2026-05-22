@@ -14,10 +14,19 @@ export const ThemeToggle = () => {
     setTheme(newTheme);
   }
 
-
   return (
-    <button className="btn" type="button" onClick={toggleTheme}>
-      {isLight() ? "Dark" : "Light"} mode
+    <button
+      className="switch-wrap"
+      type="button"
+      onClick={toggleTheme}
+      aria-label={isLight() ? "Activar modo oscuro" : "Activar modo claro"}
+    >
+      <div className={`switch-track ${isLight() ? "light" : "dark"}`}>
+        <div className="switch-thumb" />
+      </div>
+      <span className="switch-label">
+        {isLight() ? "Dark mode" : "Light mode"}
+      </span>
     </button>
-  )
+  );
 }
