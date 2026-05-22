@@ -1,58 +1,8 @@
 import './App.css'
 import { Language, ThemeToggle } from './components'
-import type { ILanguage } from './model';
+import { backIcons, frontIcons, herramientasIcons } from './model'
 
 function App() {
-  const frontIcons: ILanguage[] = [
-    {
-      fileName: "html5.svg",
-      name: "html5",
-    },
-    {
-      fileName: "css.svg",
-      name: "css",
-    },
-
-    {
-      fileName: "javascript.svg",
-      name: "javascript",
-    },
-    {
-      fileName: "react.svg",
-      name: "react",
-    }
-  ];
-
-  const backIcons: ILanguage[] = [
-    {
-      fileName: "spring.svg",
-      name: "spring boot",
-    },
-    {
-      fileName: "spring-data.svg",
-      name: "spring data",
-    },
-    {
-      fileName: "postgresql.svg",
-      name: "postgresql",
-    },
-  ];
-
-  const herramientasIcons: ILanguage[] = [
-    {
-      fileName: "docker.svg",
-      name: "docker",
-    },
-    {
-      fileName: "git.svg",
-      name: "git",
-    },
-    {
-      fileName: "notion.svg",
-      name: "notion",
-    },
-  ];
-
   return (
     <>
       <ThemeToggle />
