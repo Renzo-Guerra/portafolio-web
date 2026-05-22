@@ -1,3 +1,31 @@
+.navbar {
+  display: flex;
+  padding-block: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: linear-gradient(to bottom,
+      var(--background-color)60%,
+      color-mix(in srgb, var(--background-color) 60%, transparent));
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a {
+  width: 2rem;
+  height: 2rem;
+}
+
+.navbar img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+}
+
 .hero {
   display: grid;
   align-items: center;

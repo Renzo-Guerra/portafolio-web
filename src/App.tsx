@@ -1,11 +1,24 @@
 import './App.css'
 import { Language, ThemeToggle } from './components'
+import { useTheme } from './context';
 import { backIcons, frontIcons, herramientasIcons } from './model'
 
 function App() {
+  const { theme } = useTheme();
+
   return (
     <>
-      <ThemeToggle />
+      <nav className='navbar'>
+        <ThemeToggle />
+        <ul>
+          <a href="https://www.linkedin.com/in/renzo-guerra-lattour-008473246/" target="_blank" rel="noopener noreferrer" title='LinkedIn/renzo-guerra-lattour'>
+            <img src={`${import.meta.env.BASE_URL}src/assets/linkedin.svg`} alt="LinkedIn/" />
+          </a>
+          <a href="https://github.com/Renzo-Guerra" target="_blank" rel="noopener noreferrer" title='Github/Renzo-Guerra'>
+            <img src={`${import.meta.env.BASE_URL}src/assets/github_${theme == "dark" ? "dark" : "light"}.svg`} alt="GitHub/" />
+          </a>
+        </ul>
+      </nav>
       <div className='hero'>
         <h1>Renzo Guerra</h1>
         <h3>Desarrollador back-end</h3>
