@@ -10,15 +10,26 @@ export const frontIcons: ILanguage[] = [
     fileName: "css.svg",
     name: "css",
   },
-
   {
     fileName: "javascript.svg",
     name: "javascript",
   },
   {
+    fileName: "typescript.svg",
+    name: "typescript",
+  },
+  {
     fileName: "react.svg",
     name: "react",
-  }
+  },
+  {
+    fileName: "react-hook-form.webp",
+    name: "react-hook-form",
+  },
+  {
+    fileName: "zod.webp",
+    name: "zod",
+  },
 ];
 
 export const backIcons: ILanguage[] = [
@@ -53,12 +64,16 @@ export const herramientasIcons: ILanguage[] = [
     fileName: "notion.svg",
     name: "notion",
   },
+  {
+    fileName: "postman.svg",
+    name: "postman",
+  },
 ];
 
 export const proyectos: IProyecto[] = [
   {
     titulo: "Gestor canchas",
-    descripcion: "Sistema el cual permita al dueño de un centro deportivo gestionar tanto sus canchas como los turnos que irá programando para sus clientes.",
+    descripcion: "Sistema fullstack el cual permita al dueño de un centro deportivo gestionar tanto sus canchas como los turnos que irá programando para sus clientes.",
     imgSrc: `${import.meta.env.BASE_URL}src/assets/images/centro-deportivo.png`,
     imgAlt: "Dashboard del centro deportivo",
     link: "https://centro-deportivo-frontend.vercel.app",
@@ -84,7 +99,23 @@ export const proyectos: IProyecto[] = [
         name: "",
       },
       {
+        fileName: "typescript.svg",
+        name: "",
+      },
+      {
+        fileName: "react-hook-form.webp",
+        name: "",
+      },
+      {
+        fileName: "zod.webp",
+        name: "",
+      },
+      {
         fileName: "docker.svg",
+        name: "",
+      },
+      {
+        fileName: "postman.svg",
         name: "",
       },
       {
@@ -95,7 +126,64 @@ export const proyectos: IProyecto[] = [
         fileName: "notion.svg",
         name: "",
       },
-
+    ]
+  },
+  {
+    titulo: "El impostor",
+    descripcion: "Una aplicación web desarrollada con React y TypeScript diseñada para animar reuniones sociales. El objetivo es simple: descubrir quién miente antes de que el impostor descubra el secreto.",
+    imgSrc: `${import.meta.env.BASE_URL}src/assets/images/el-impostor.png`,
+    imgAlt: "Formulario para comenzar el juego",
+    link: "https://el-impostor-beige.vercel.app/",
+    stack: [
+      {
+        fileName: "react.svg",
+        name: "",
+      },
+      {
+        fileName: "typescript.svg",
+        name: "",
+      },
+      {
+        fileName: "react-hook-form.webp",
+        name: "",
+      },
+      {
+        fileName: "zod.webp",
+        name: "",
+      },
+      {
+        fileName: "git.svg",
+        name: "",
+      },
+    ]
+  },
+  {
+    titulo: "Book Tracker",
+    descripcion: "Una aplicación web desarrollada con React y TypeScript que permite a un usuario llevar un control de los libros ya leidos, los que está leyendo y los que planea leer en un futuro. Los datos son guardados en el local storage.",
+    imgSrc: `${import.meta.env.BASE_URL}src/assets/images/book-tracker.png`,
+    imgAlt: "Applicacion web que trackea libros",
+    link: "https://my-books-list-73czjhm2y-renzo-guerra-lattours-projects.vercel.app/",
+    stack: [
+      {
+        fileName: "react.svg",
+        name: "",
+      },
+      {
+        fileName: "typescript.svg",
+        name: "",
+      },
+      {
+        fileName: "react-hook-form.webp",
+        name: "",
+      },
+      {
+        fileName: "zod.webp",
+        name: "",
+      },
+      {
+        fileName: "git.svg",
+        name: "",
+      },
     ]
   },
 ]
