@@ -40,3 +40,17 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
 }
+
+.technologies-container {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

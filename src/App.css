@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  padding-block: 1rem;
+  padding: 1rem;
   justify-content: space-between;
   align-items: center;
   position: sticky;
@@ -30,8 +30,7 @@
   display: grid;
   align-items: center;
   gap: 1rem;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding: 3rem 1rem 2rem 1rem;
   line-height: 120%;
   letter-spacing: 0.05rem;
 }
@@ -54,4 +53,11 @@
   gap: 1rem;
   justify-content: center;
   align-items: center;
+}
+
+.proyectos-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-bottom: 2rem;
+  gap: 2rem;
 }

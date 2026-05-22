@@ -1,0 +1,30 @@
+.card-proyecto {
+  display: grid;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 0.2rem;
+  width: 100%;
+  text-align: start;
+  border: solid 1px var(--text-color);
+}
+
+.card-proyecto a {
+  display: flex;
+}
+
+.card-proyecto .card-proyecto__preview {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-proyecto h3 {
+  padding-block: .5rem;
+}
+
+.card-proyecto .technologies-images-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+}

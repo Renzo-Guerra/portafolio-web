@@ -1,7 +1,7 @@
 import './App.css'
-import { Language, ThemeToggle } from './components'
+import { Language, Proyecto, ThemeToggle } from './components'
 import { useTheme } from './context';
-import { backIcons, frontIcons, herramientasIcons } from './model'
+import { backIcons, frontIcons, herramientasIcons, proyectos } from './model'
 
 function App() {
   const { theme } = useTheme();
@@ -49,6 +49,11 @@ function App() {
       </div>
       <div className='titular' id='proyectos'>
         <h2>Proyectos</h2>
+      </div>
+      <div className='proyectos-container'>
+        {proyectos && proyectos.map(proyecto => (
+          <Proyecto proyecto={proyecto} />
+        ))}
       </div>
     </>
   )
