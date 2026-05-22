@@ -1,8 +1,9 @@
 import './App.css'
 import { Language, ThemeToggle } from './components'
+import type { ILanguage } from './model';
 
 function App() {
-  const frontIcons: { fileName: string, name: string }[] = [
+  const frontIcons: ILanguage[] = [
     {
       fileName: "html5.svg",
       name: "html5",
@@ -22,7 +23,7 @@ function App() {
     }
   ];
 
-  const backIcons: { fileName: string, name: string }[] = [
+  const backIcons: ILanguage[] = [
     {
       fileName: "spring.svg",
       name: "spring boot",
@@ -37,7 +38,7 @@ function App() {
     },
   ];
 
-  const herramientasIcons: { fileName: string, name: string }[] = [
+  const herramientasIcons: ILanguage[] = [
     {
       fileName: "docker.svg",
       name: "docker",
