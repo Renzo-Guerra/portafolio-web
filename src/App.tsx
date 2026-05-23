@@ -52,7 +52,7 @@ function App() {
       </div>
       <div className='proyectos-container'>
         {proyectos && proyectos.map(proyecto => (
-          <Proyecto proyecto={proyecto} />
+          <Proyecto key={proyecto.link} proyecto={proyecto} />
         ))}
       </div>
     </>

@@ -74,7 +74,8 @@ export const proyectos: IProyecto[] = [
   {
     titulo: "Gestor canchas",
     descripcion: "Sistema fullstack el cual permita al dueño de un centro deportivo gestionar tanto sus canchas como los turnos que irá programando para sus clientes.",
-    imgSrc: `/assets/images/centro-deportivo.png`,
+    imgSrcPhone: `/assets/images/centro-deportivo-phone.png`,
+    imgSrcDesktop: `/assets/images/centro-deportivo-desktop.png`,
     imgAlt: "Dashboard del centro deportivo",
     link: "https://centro-deportivo-frontend.vercel.app",
     stack: [
@@ -131,7 +132,8 @@ export const proyectos: IProyecto[] = [
   {
     titulo: "El impostor",
     descripcion: "Una aplicación web desarrollada con React y TypeScript diseñada para animar reuniones sociales. El objetivo es simple: descubrir quién miente antes de que el impostor descubra el secreto.",
-    imgSrc: `/assets/images/el-impostor.png`,
+    imgSrcPhone: `/assets/images/el-impostor-phone.png`,
+    imgSrcDesktop: `/assets/images/el-impostor-desktop.png`,
     imgAlt: "Formulario para comenzar el juego",
     link: "https://el-impostor-beige.vercel.app/",
     stack: [
@@ -160,7 +162,8 @@ export const proyectos: IProyecto[] = [
   {
     titulo: "Book Tracker",
     descripcion: "Una aplicación web desarrollada con React y TypeScript que permite a un usuario llevar un control de los libros ya leidos, los que está leyendo y los que planea leer en un futuro. Los datos son guardados en el local storage.",
-    imgSrc: `/assets/images/book-tracker.png`,
+    imgSrcPhone: `/assets/images/book-tracker-phone.png`,
+    imgSrcDesktop: `/assets/images/book-tracker-desktop.png`,
     imgAlt: "Applicacion web que trackea libros",
     link: "https://my-books-list-73czjhm2y-renzo-guerra-lattours-projects.vercel.app/",
     stack: [
