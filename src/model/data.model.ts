@@ -70,7 +70,36 @@ export const herramientasIcons: ILanguage[] = [
   },
 ];
 
-export const proyectos: IProyecto[] = [
+export const proyectosEnProgreso: IProyecto[] = [
+  {
+    titulo: 'Panaderia "Postres y Poemas"',
+    descripcion: "Rediseño de sitio web de una panadería la cual siento que puede ser más UX friendly.",
+    imgSrcPhone: `/assets/images/panaderia-postres-y-poemas-phone.png`,
+    imgSrcDesktop: `/assets/images/panaderia-postres-y-poemas-desktop.png`,
+    imgAlt: 'Inicio de "Postres y Poemas"',
+    link: "https://panaderia-postres-y-poemas.vercel.app/",
+    stack: [
+      {
+        fileName: "react.svg",
+        name: "",
+      },
+      {
+        fileName: "typescript.svg",
+        name: "",
+      },
+      {
+        fileName: "docker.svg",
+        name: "",
+      },
+      {
+        fileName: "git.svg",
+        name: "",
+      },
+    ]
+  },
+];
+
+export const proyectosTerminados: IProyecto[] = [
   {
     titulo: "Gestor canchas",
     descripcion: "Sistema fullstack el cual permita al dueño de un centro deportivo gestionar tanto sus canchas como los turnos que irá programando para sus clientes.",
