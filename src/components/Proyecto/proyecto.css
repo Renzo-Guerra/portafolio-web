@@ -1,27 +1,28 @@
 .card-proyecto {
   display: grid;
   padding: 1rem;
-  gap: 1rem;
   border-radius: 0.2rem;
+  gap: .5rem;
   width: 100%;
   text-align: start;
   border: solid 1px var(--text-color);
 }
 
 .card-proyecto a {
-  display: flex;
-}
-
-.card-proyecto .card-proyecto__preview {
   width: 100%;
-  object-fit: cover;
+  /* height: auto; */
 }
 
-.card-proyecto h3 {
-  padding-block: .5rem;
+.card-proyecto picture {
+  display: block;
 }
 
-.card-proyecto .technologies-images-container {
+.card-proyecto__preview {
+  width: 100%;
+  height: 100%;
+}
+
+.technologies-images-container {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
