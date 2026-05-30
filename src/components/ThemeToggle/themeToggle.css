@@ -23,10 +23,6 @@
   flex-shrink: 0;
 }
 
-.switch-track.light {
-  background: var(--accent-color);
-}
-
 /* La bolita */
 .switch-thumb {
   position: absolute;

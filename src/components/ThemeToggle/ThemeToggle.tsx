@@ -25,7 +25,7 @@ export const ThemeToggle = () => {
         <div className="switch-thumb" />
       </div>
       <span className="switch-label">
-        {isLight() ? "Dark mode" : "Light mode"}
+        Dark mode
       </span>
     </button>
   );
