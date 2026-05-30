@@ -5,6 +5,7 @@
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 1000;
   background: linear-gradient(to bottom,
       var(--background-color)60%,
       color-mix(in srgb, var(--background-color) 60%, transparent));
