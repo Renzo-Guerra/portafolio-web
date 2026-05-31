@@ -11,10 +11,22 @@ function App() {
       <nav className='navbar'>
         <ThemeToggle />
         <ul>
-          <a href="https://www.linkedin.com/in/renzo-guerra-lattour-008473246/" target="_blank" rel="noopener noreferrer" title='LinkedIn/renzo-guerra-lattour'>
+          <a
+            href="mailto:renzoguerralatt@gmail.com"
+            target="_blank" rel="noopener noreferrer"
+            title='@renzoguerralatt@gmail.com'>
+            <img src="/assets/icons/gmail.png" alt="Gmail/" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/renzo-guerra-lattour-008473246/"
+            target="_blank" rel="noopener noreferrer"
+            title='LinkedIn/renzo-guerra-lattour'>
             <img src="/assets/icons/linkedin.svg" alt="LinkedIn/" />
           </a>
-          <a href="https://github.com/Renzo-Guerra" target="_blank" rel="noopener noreferrer" title='Github/Renzo-Guerra'>
+          <a
+            href="https://github.com/Renzo-Guerra"
+            target="_blank" rel="noopener noreferrer"
+            title='Github/Renzo-Guerra'>
             <img src={`/assets/icons/github_${theme == "dark" ? "dark" : "light"}.svg`} alt="GitHub/" />
           </a>
         </ul>
