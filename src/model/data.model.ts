@@ -30,6 +30,10 @@ export const frontIcons: ILanguage[] = [
     fileName: "zod.webp",
     name: "zod",
   },
+  {
+    fileName: "leaflet.svg",
+    name: "leaflet",
+  },
 ];
 
 export const backIcons: ILanguage[] = [
@@ -71,6 +75,32 @@ export const herramientasIcons: ILanguage[] = [
 ];
 
 export const proyectosEnProgreso: IProyecto[] = [
+  {
+    titulo: 'NecoLlega',
+    descripcion: "Diseñado para resolver la falta de información sobre el transporte público en la ciudad de Necochea, Buenos Aires.Esta aplicación web interactiva permite a los ciudadanos y turistas visualizar recorridos, ubicar paradas y consultar tiempos estimados de los colectivos locales.",
+    imgSrcPhone: `/assets/images/necollega-phone.png`,
+    imgSrcDesktop: `/assets/images/necollega-desktop.png`,
+    imgAlt: 'Mapa de Necochea con recorridos de colectivo',
+    link: "https://neco-llega.vercel.app/inicio",
+    stack: [
+      {
+        fileName: "react.svg",
+        name: "",
+      },
+      {
+        fileName: "typescript.svg",
+        name: "",
+      },
+      {
+        fileName: "leaflet.svg",
+        name: "",
+      },
+      {
+        fileName: "git.svg",
+        name: "",
+      },
+    ]
+  },
   {
     titulo: 'Panaderia "Postres y Poemas"',
     descripcion: "Rediseño de sitio web de una panadería la cual siento que puede ser más UX friendly.",
