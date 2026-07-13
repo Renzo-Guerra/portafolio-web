@@ -139,6 +139,9 @@ export const proyectosEnProgreso: IProyecto[] = [
       },
     ]
   },
+];
+
+export const proyectosTerminados: IProyecto[] = [
   {
     titulo: 'Panaderia "Postres y Poemas"',
     descripcion: "Rediseño de sitio web de una panadería la cual siento que puede ser más UX friendly.",
@@ -165,9 +168,6 @@ export const proyectosEnProgreso: IProyecto[] = [
       },
     ]
   },
-];
-
-export const proyectosTerminados: IProyecto[] = [
   {
     titulo: "Gestor canchas",
     descripcion: "Sistema fullstack el cual permita al dueño de un centro deportivo gestionar tanto sus canchas como los turnos que irá programando para sus clientes.",
@@ -286,4 +286,4 @@ export const proyectosTerminados: IProyecto[] = [
       },
     ]
   },
-]
+];
