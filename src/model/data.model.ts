@@ -11,6 +11,10 @@ export const frontIcons: ILanguage[] = [
     name: "css",
   },
   {
+    fileName: "tailwindcss.svg",
+    name: "tailwindcss",
+  },
+  {
     fileName: "javascript.svg",
     name: "javascript",
   },
@@ -75,6 +79,40 @@ export const herramientasIcons: ILanguage[] = [
 ];
 
 export const proyectosEnProgreso: IProyecto[] = [
+  {
+    titulo: 'Arquitecta Benitez',
+    descripcion: "Landing page promocionando los servicios que ofrece la arquitecta Sofía Benitez.",
+    imgSrcPhone: `/assets/images/landing-arquitecta-phone.png`,
+    imgSrcDesktop: `/assets/images/landing-arquitecta-desktop.png`,
+    imgAlt: 'Landing page de la arquitecta Sofía Benitez',
+    link: "https://arquitecta-benitez.vercel.app/",
+    stack: [
+      {
+        fileName: "react.svg",
+        name: "",
+      },
+      {
+        fileName: "typescript.svg",
+        name: "",
+      },
+      {
+        fileName: "tailwindcss.svg",
+        name: "",
+      },
+      {
+        fileName: "zod.webp",
+        name: "",
+      },
+      {
+        fileName: "react-hook-form.webp",
+        name: "",
+      },
+      {
+        fileName: "git.svg",
+        name: "",
+      },
+    ]
+  },
   {
     titulo: 'NecoLlega',
     descripcion: "Diseñado para resolver la falta de información sobre el transporte público en la ciudad de Necochea, Buenos Aires.Esta aplicación web interactiva permite a los ciudadanos y turistas visualizar recorridos, ubicar paradas y consultar tiempos estimados de los colectivos locales.",
