@@ -1,7 +1,7 @@
 import './App.css'
 import { Language, Proyecto, ThemeToggle } from './components'
 import { useTheme } from './context';
-import { backIcons, frontIcons, herramientasIcons, proyectosEnProgreso, proyectosTerminados } from './model'
+import { backIcons, frontIcons, herramientasIcons, proyectos } from './model'
 
 function App() {
   const { theme } = useTheme();
@@ -64,13 +64,13 @@ function App() {
       </div>
       <div className='proyectos-container'>
         <h3>Actualmente en proceso</h3>
-        {proyectosEnProgreso && proyectosEnProgreso.map(proyecto => (
+        {proyectos && proyectos.filter(p => !p.isFinished).map(proyecto => (
           <Proyecto key={proyecto.link} proyecto={proyecto} />
         ))}
       </div>
       <div className='proyectos-container'>
         <h3>Proyectos terminados</h3>
-        {proyectosTerminados && proyectosTerminados.map(proyecto => (
+        {proyectos && proyectos.filter(p => p.isFinished).map(proyecto => (
           <Proyecto key={proyecto.link} proyecto={proyecto} />
         ))}
       </div>

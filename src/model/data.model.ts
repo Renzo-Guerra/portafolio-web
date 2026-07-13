@@ -78,7 +78,7 @@ export const herramientasIcons: ILanguage[] = [
   },
 ];
 
-export const proyectosEnProgreso: IProyecto[] = [
+export const proyectos: IProyecto[] = [
   {
     titulo: 'Arquitecta Benitez',
     descripcion: "Landing page promocionando los servicios que ofrece la arquitecta Sofía Benitez.",
@@ -86,6 +86,7 @@ export const proyectosEnProgreso: IProyecto[] = [
     imgSrcDesktop: `/assets/images/landing-arquitecta-desktop.png`,
     imgAlt: 'Landing page de la arquitecta Sofía Benitez',
     link: "https://arquitecta-benitez.vercel.app/",
+    isFinished: false,
     stack: [
       {
         fileName: "react.svg",
@@ -120,6 +121,7 @@ export const proyectosEnProgreso: IProyecto[] = [
     imgSrcDesktop: `/assets/images/necollega-desktop.png`,
     imgAlt: 'Mapa de Necochea con recorridos de colectivo',
     link: "https://neco-llega.vercel.app/inicio",
+    isFinished: false,
     stack: [
       {
         fileName: "react.svg",
@@ -139,9 +141,6 @@ export const proyectosEnProgreso: IProyecto[] = [
       },
     ]
   },
-];
-
-export const proyectosTerminados: IProyecto[] = [
   {
     titulo: 'Panaderia "Postres y Poemas"',
     descripcion: "Rediseño de sitio web de una panadería la cual siento que puede ser más UX friendly.",
@@ -149,6 +148,7 @@ export const proyectosTerminados: IProyecto[] = [
     imgSrcDesktop: `/assets/images/panaderia-postres-y-poemas-desktop.png`,
     imgAlt: 'Inicio de "Postres y Poemas"',
     link: "https://panaderia-postres-y-poemas.vercel.app/",
+    isFinished: true,
     stack: [
       {
         fileName: "react.svg",
@@ -175,6 +175,7 @@ export const proyectosTerminados: IProyecto[] = [
     imgSrcDesktop: `/assets/images/centro-deportivo-desktop.png`,
     imgAlt: "Dashboard del centro deportivo",
     link: "https://centro-deportivo-frontend.vercel.app",
+    isFinished: true,
     stack: [
       {
         fileName: "spring.svg",
@@ -233,6 +234,7 @@ export const proyectosTerminados: IProyecto[] = [
     imgSrcDesktop: `/assets/images/el-impostor-desktop.png`,
     imgAlt: "Formulario para comenzar el juego",
     link: "https://el-impostor-beige.vercel.app/",
+    isFinished: true,
     stack: [
       {
         fileName: "react.svg",
@@ -263,6 +265,7 @@ export const proyectosTerminados: IProyecto[] = [
     imgSrcDesktop: `/assets/images/book-tracker-desktop.png`,
     imgAlt: "Applicacion web que trackea libros",
     link: "https://my-books-list-73czjhm2y-renzo-guerra-lattours-projects.vercel.app/",
+    isFinished: true,
     stack: [
       {
         fileName: "react.svg",

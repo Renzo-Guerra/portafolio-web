@@ -7,5 +7,6 @@ export interface IProyecto {
   imgSrcDesktop: string,
   imgAlt: string,
   link: string,
+  isFinished: boolean,
   stack: ILanguage[]
 }
