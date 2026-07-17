@@ -86,7 +86,7 @@ export const proyectos: IProyecto[] = [
     imgSrcDesktop: `/assets/images/landing-arquitecta-desktop.png`,
     imgAlt: 'Landing page de la arquitecta Sofía Benitez',
     link: "https://arquitecta-benitez.vercel.app/",
-    isFinished: false,
+    isFinished: true,
     stack: [
       {
         fileName: "react.svg",
@@ -98,14 +98,6 @@ export const proyectos: IProyecto[] = [
       },
       {
         fileName: "tailwindcss.svg",
-        name: "",
-      },
-      {
-        fileName: "zod.webp",
-        name: "",
-      },
-      {
-        fileName: "react-hook-form.webp",
         name: "",
       },
       {
